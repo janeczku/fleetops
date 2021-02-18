@@ -1,0 +1,12 @@
+targetCustomizations:
+- name: prod
+  clusterGroup: prod
+  yaml:
+    overlays:
+      - prod
+- name: dev
+  clusterGroup: dev
+  yaml:
+    overlays:
+      - dev
+    

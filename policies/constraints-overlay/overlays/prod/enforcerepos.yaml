@@ -1,0 +1,4 @@
+spec:
+  parameters:
+    repos:
+      - "rancher"
